@@ -1,0 +1,77 @@
+@media(max-width: 1440px) {
+        img {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            height: 25px;
+        }
+    
+        .card {
+            padding: 25px;
+            height: 320px;
+            width: 200px;
+        }
+    
+        .one {
+            background: hsl(31, 77%, 52%);
+            border-radius: 8px 0 0 8px;
+    
+        }
+    
+        .two {
+            background: hsl(184, 100%, 22%);
+            border-radius: 0;
+    
+        }
+    
+        .three {
+            background: hsl(179, 100%, 13%);
+            border-radius: 0px 8px 8px 0px;
+        }
+    
+        h2 {
+            margin-bottom: 20px;
+            color: hsl(0, 0%, 95%);
+            font-family: 'Big Shoulders  Display'
+                cursive;
+    
+        }
+    
+        p {
+            margin-bottom: 50px;
+            color: hsla(0, 0%, 100%, 0.75);
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 11px;
+            line-height: 18px;
+    
+        }
+    
+    
+        button {
+            background-color: hsl(0, 0%, 95%);
+            border: none;
+            border-radius: 50px;
+            width: 95px;
+            height: 30px;
+            cursor: pointer;
+        }
+    
+        .one button:hover {
+            border: 2px solid hsl(0, 0%, 95%);
+            background-color: hsl(31, 77%, 52%);
+            color: hsl(0, 0%, 95%);
+        }
+    
+        .two button:hover {
+            border: 2px solid hsl(0, 0%, 95%);
+            background-color: hsl(184, 100%, 22%);
+            color: hsl(0, 0%, 95%);
+        }
+    
+        .three button:hover {
+            border: 2px solid hsl(0, 0%, 95%);
+            background-color: hsl(179, 100%, 13%);
+            color: hsl(0, 0%, 95%);
+        }
+
+}
+   

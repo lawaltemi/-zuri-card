@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(0, 0%, 95%);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(9, 7, 7);
+}
+li{
+    list-style: none;
+    margin-left: px;
+    color: rgb(255, 89, 0);
+    font-weight: bold;
+    font-size:16px;
+    font-style: italic;
+}
+hr{
+    margin-bottom: 0.5px;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card{
+    padding: 30px;
+    height: 390px;
+    width: 280px;
+}
+.one{
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    
+}
+.two{
+    background: hsl(184, 100%, 22%);
+    border-radius: 0;
+
+}
+.three{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+h2{
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders  Display'
+    cursive;
+    
+}
+p{
+    margin-bottom: 60px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+      
+}
+.one button{
+    color: hsl(31, 77%, 52%);
+}
+.two button{
+    color: hsl(184, 100%, 22%);
+}
+.three button{
+    color: hsl(179, 100%, 13%);
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+.one button:hover{
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.two button:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.three button:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
